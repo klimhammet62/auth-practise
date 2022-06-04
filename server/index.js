@@ -15,7 +15,7 @@ app.use('/api', router)
 
 const start = async () => {
     try {
-        await mogoose.connect(process.env.DB_URL, {
+        await mongoose.connect(process.env.DB_URL, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
