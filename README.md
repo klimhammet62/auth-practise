@@ -1,2 +1,2 @@
 # auth-practise
-i just wanna to get auth
+i just wanna to make simple auth
